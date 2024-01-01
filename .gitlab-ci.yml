@@ -1,0 +1,28 @@
+image: "ubuntu:22.04"
+
+stages:
+  - build
+  - test
+  - buildJar
+
+before_script:
+  - apt update
+  - apt install -y kotlin openjdk-11-jdk openjfx zip
+
+buildTS3MusicBot:
+  stage: build
+  script:
+    - sh gradlew assemble
+
+runTests:
+  stage: test
+  script:
+    - sh gradlew test
+
+buildJar:
+  stage: buildJar
+  script:
+    - sh build.sh
+  artifacts:
+    paths:
+      - out/artifacts/ts3_musicbot/ts3-musicbot.jar
