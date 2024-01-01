@@ -24,13 +24,8 @@ TS3 MusicBot doesn't require you to be an admin on the server you are using the 
 - Works on Windows via WSL2, but configuration is harder than just installing an actual Linux OS.<br>
 - MacOS might work if you install dependencies via homebrew, but this hasn't been tested.<br>
 
-<h4>Installation:</h4>
-Go to [Wiki](https://gitlab.com/Bettehem/ts3-musicbot/wikis/home) for instructions on installation.<br>
-<br>
-<h4>Commands:</h4>
 
-- All commands start with the "%" character. You have to enter these in the chat of the channel your bot is connected to.<br>
-- Check Command List wiki page for a list of commands: https://gitlab.com/Bettehem/ts3-musicbot/wikis/command-list<br>
+<br>
 
 <br>
 <br>
@@ -41,5 +36,5 @@ Go to [Wiki](https://gitlab.com/Bettehem/ts3-musicbot/wikis/home) for instructio
 This problem doesn't exist on this bot, as it will search for the relevant Spotify data using their API, and then uses either the official Spotify client, or if the user so chooses, ncspot to play the songs straight from Spotify.<br>
 <br>
 If you like my work and feel like it's worth your money, you can donate via PayPal. More options may come in the future. Thanks for your support!<br>
-[![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://www.paypal.me/Bettehem/)
+[![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://www.paypal.me/elonmasai7@gmail.com/)
 
